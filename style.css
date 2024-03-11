@@ -1,0 +1,74 @@
+.birthstone-regular {
+  font-family: "Birthstone", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 50;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  color: white;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+div {
+  display: block;
+}
+
+.middle-container {
+  margin: 100px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-container {
+  background-color: white;
+  position: relative;
+  background-image: url("./images/road.jpeg");
+  background-size: cover;
+  background-position: center;
+  width: 100%; /* Adăugăm lățime de 100% pentru a umple containerul */
+  height: 100%; /* Adăugăm înălțime de 100% pentru a umple containerul */
+  height: 500px;
+}
+
+.top-container h1,
+.top-container p {
+  color: white;
+}
+
+h2{
+  padding-bottom: 30px;
+  padding-top: 30px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.bg-body-secondary {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-secondary-bg-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+}
+
